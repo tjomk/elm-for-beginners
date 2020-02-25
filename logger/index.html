@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" />
+  </head>
+
+  <body>
+    <div id="main"></div>
+    <script src="logger.js"></script>
+    <script>
+      const app = Elm.Log.init({
+        node: document.getElementById("main")
+      });
+    </script>
+  </body>
+</html>
